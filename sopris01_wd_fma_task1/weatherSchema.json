@@ -1,0 +1,68 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "title": "UK Cities Weather",
+  "type": "object",
+  "properties": {
+    "weather": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "cityId": {
+            "type": "integer",
+            "minimum": 0.0
+          },
+          "cityName": {
+            "type": "string"
+          },
+          "currentConditions": {
+            "type": "string",
+            "enum": [
+              "Sun",
+              "Rain",
+              "Sleet",
+              "Heavy Rain",
+              "Snow",
+              "Clouds",
+              "Sun and Clouds",
+              "Heavy Cloud",
+              "Thunderstorm",
+              "Hail"
+            ]
+          },
+          "temperature": {
+            "type": "integer"
+          },
+          "windSpeed": {
+            "type": "integer",
+            "minimum": 0
+          },
+          "windDirection": {
+            "type": "string",
+            "enum": [
+              "Northerly",
+              "North easterly",
+              "North westerly",
+              "Easterly",
+              "South easterly",
+              "South westerly",
+              "Southerly",
+              "Westerly"
+            ]
+          },
+          "windChillFactor": {
+            "type": "integer"
+          }
+        },
+        "required": [
+          "cityName",
+          "currentConditions",
+          "temperature",
+          "windSpeed",
+          "windDirection",
+          "windChillFactor"
+        ]
+      }
+    }
+  }
+}

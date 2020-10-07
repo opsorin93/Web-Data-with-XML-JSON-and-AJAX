@@ -1,0 +1,94 @@
+{
+  "weather": [
+    {
+      "cityId": 1,
+      "cityName": "London",
+      "currentConditions": "Sun",
+      "temperature": 20,
+      "windSpeed": 5,
+      "windDirection": "Northerly",
+      "windChillFactor": 13
+    },
+    {
+      "cityId": 2,
+      "cityName": "Manchester",
+      "currentConditions": "Clouds",
+      "temperature": 15,
+      "windSpeed": 10,
+      "windDirection": "Southerly",
+      "windChillFactor": 3
+    },
+    {
+      "cityId": 3,
+      "cityName": "Leeds",
+      "currentConditions": "Rain",
+      "temperature": 12,
+      "windSpeed": 20,
+      "windDirection": "Westerly",
+      "windChillFactor": -2
+    },
+    {
+      "cityId": 4,
+      "cityName": "Glasgow",
+      "currentConditions": "Sleet",
+      "temperature": 2,
+      "windSpeed": 25,
+      "windDirection": "Easterly",
+      "windChillFactor": -5
+    },
+    {
+      "cityId": 5,
+      "cityName": "Newcastle",
+      "currentConditions": "Thunderstorm",
+      "temperature": 25,
+      "windSpeed": 30,
+      "windDirection": "North westerly",
+      "windChillFactor": 8
+    },
+    {
+      "cityId": 6,
+      "cityName": "Sheffield",
+      "currentConditions": "Hail",
+      "temperature": 17,
+      "windSpeed": 35,
+      "windDirection": "North easterly",
+      "windChillFactor": 0
+    },
+    {
+      "cityId": 7,
+      "cityName": "Liverpool",
+      "currentConditions": "Heavy Cloud",
+      "temperature": 12,
+      "windSpeed": 33,
+      "windDirection": "South easterly",
+      "windChillFactor": -5
+    },
+    {
+      "cityId": 8,
+      "cityName": "Bristol",
+      "currentConditions": "Heavy Rain",
+      "temperature": 10,
+      "windSpeed": 18,
+      "windDirection": "South westerly",
+      "windChillFactor": -9
+    },
+    {
+      "cityId": 9,
+      "cityName": "Belfast",
+      "currentConditions": "Sun and Clouds",
+      "temperature": 15,
+      "windSpeed": 5,
+      "windDirection": "Westerly",
+      "windChillFactor": 7
+    },
+    {
+      "cityId": 10,
+      "cityName": "Birmingham ",
+      "currentConditions": "Sun",
+      "temperature": 25,
+      "windSpeed": 30,
+      "windDirection": "Easterly",
+      "windChillFactor": 2
+    }
+  ]
+}

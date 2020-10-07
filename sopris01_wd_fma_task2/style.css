@@ -1,0 +1,69 @@
+/*Oprisa Sorin Raducu - 13302389 -FMA WD Task 2*/
+p{
+ font-family: sans-serif, verdana;
+ color: #150101;
+ font-size: 1.5em;
+}
+header{
+    border: 2px solid #290808;
+    background-color: #364652;
+    border-radius: 50px;
+    box-shadow: 10px 10px 8px #888888;
+    border-style: hidden;
+}
+
+h1 {
+    text-align: center;
+    letter-spacing: 1px;
+    margin: 40px;
+    padding: 10px;
+}
+
+html {
+    background-color: rgb(222, 220, 220);
+    text-align: center;
+}
+
+.selectSection {
+    font-family: sans-serif, verdana;
+    color: #150101;
+    padding-bottom: 2em;
+    padding-top: 2em;
+}
+
+#cities{
+    font-size: 15px;
+}
+#countries{
+    font-size: 15px;
+}
+
+h1 {
+    text-align: center;
+    letter-spacing: 1px;
+    margin: 40px;
+    padding: 10px;
+    color: #ffff;
+    font-size: 50px;
+}
+
+.weatherInfo{
+    font-weight: 50%;
+}
+
+footer p {
+    position: absolute;
+    bottom: 0;
+    text-align: center;
+    width: 100%;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.InfoSection p{
+    font-family: sans-serif, verdana;
+    text-align: center;
+    font-weight: bold;
+    color: red;
+    padding-top: 1em;
+}
